@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="monetry.com.monetry.PayTmNumber">
+
+<com.google.android.gms.ads.AdView
+    android:id="@+id/adViewTop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/banner_ad_unit_id">
+</com.google.android.gms.ads.AdView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/adViewTop"
+    android:layout_above="@id/adViewBottom">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/adViewTop"
+        android:layout_above="@id/adViewBottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/adViewTop"
+            android:layout_above="@id/adViewBottom"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Name"
+                android:gravity="center_horizontal"
+                android:textSize="32sp"
+                android:id="@+id/userName"/>
+
+            <EditText
+                android:id="@+id/paytmNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="center_horizontal"
+                android:hint="Enter your PayTM registered mobile number"
+                android:inputType="number|phone"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="75dp"
+                android:text="Register and Proceed"
+                android:textSize="25sp"
+                android:background="@color/green"
+                android:onClick="clickRegisterBtn"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+<com.google.android.gms.ads.AdView
+    android:id="@+id/adViewBottom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/banner_ad_unit_id">
+</com.google.android.gms.ads.AdView>
+</RelativeLayout>

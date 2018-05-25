@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Monetry</string>
+    <string name="app_id">ca-app-pub-8566633262264692~1081864578</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>    <!--ca-app-pub-8566633262264692/7700077962-->
+    <string name="reward_ad_id">ca-app-pub-3940256099942544/5224354917</string>   <!--ca-app-pub-8566633262264692/3979490657-->
+    <string name="interstetial_ad_id">ca-app-pub-8566633262264692/6208647292</string> <!--ca-app-pub-8566633262264692/6208647292-->
+
+
+    <string name="facebook_app_id">401186593657265</string>
+    <string name="fb_login_protocol_scheme">fb401186593657265</string>
+
+
+</resources>

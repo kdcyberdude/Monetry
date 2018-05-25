@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880187645462",
+    "firebase_url": "https://monetry-90d11.firebaseio.com",
+    "project_id": "monetry-90d11",
+    "storage_bucket": "monetry-90d11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880187645462:android:1edc202af9f1c002",
+        "android_client_info": {
+          "package_name": "monetry.com.monetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880187645462-63dkm9pv912b51nauc0p9bs97q9n8r5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "monetry.com.monetry",
+            "certificate_hash": "85a539e125274b68d1726f3afed63c383599c97f"
+          }
+        },
+        {
+          "client_id": "880187645462-qitn6nsh88fgmh0uc7q73aqcg7btkbe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIA-mpL0Nn0W2U79XOfz1Km72PGHTAnbs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880187645462-qitn6nsh88fgmh0uc7q73aqcg7btkbe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
